@@ -1,0 +1,32 @@
+            #pagination {
+                display: block;
+                text-align: center;
+            }
+            #pagiCount{
+                display: inline-block;
+                margin-top:10px;
+				margin-left:-100px;
+
+            }
+            #pagiCount a, #pagiCount strong {
+                display: block;
+                width: 35px;
+                background: rgb(0, 53, 148);
+                float: left;
+                margin-right: 5px;
+                color: #fff;
+                text-align: center;
+                text-decoration: none;
+                font-size:12px;
+                line-height: 29px;
+				border-radius:15px;
+
+            }
+            #pagination strong , #pagination a:hover {
+                background:rgb(130, 171, 245);
+                color:#000;
+            }
+            tr:nth-child(even) {
+                background: #CCC
+            }
+        
